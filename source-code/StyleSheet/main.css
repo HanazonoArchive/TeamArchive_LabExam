@@ -1,13 +1,13 @@
 @import url("./fonts/inter.css");
 
 :root {
-  --background-color: #1A1A1E; /* Light Blue */
-  --navbar-color: #f5f5f5; /* Soft Blue */
-  --text-color: #000000; /* Deep Blue */
-  --optional-color: #42a5f5; /* Vibrant Blue */
-  --highlighted-color: #1e88e5; /* Medium Blue */
-  --afuckingcolor: #64b5f6; /* Sky Blue */
-  --afuckingtextcolor: #102027; /* Dark Blue-Grey */
+  --background-color: #1a1a1e; /* Dark background */
+  --navbar-color: #f5f5f5; /* Light text */
+  --text-color: #000000; /* Black text */
+  --optional-color: #800020; /* Maroon */
+  --highlighted-color: #a0002a; /* Lighter maroon */
+  --afuckingcolor: #ffd700; /* Gold */
+  --afuckingtextcolor: #2d1b00; /* Dark gold-brown */
 }
 
 * {

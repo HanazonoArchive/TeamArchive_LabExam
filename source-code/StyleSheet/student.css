@@ -4,7 +4,7 @@
 .loading-container {
   text-align: center;
   padding: 4rem 2rem;
-  color: #64b5f6;
+  color: #ffd700;
 }
 
 .loading-container p {
@@ -16,7 +16,11 @@
 .access-denied-section {
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, rgba(220, 53, 69, 0.1) 0%, rgba(26, 26, 30, 0.8) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(220, 53, 69, 0.1) 0%,
+    rgba(26, 26, 30, 0.8) 100%
+  );
   border-radius: 12px;
   border: 1px solid rgba(220, 53, 69, 0.2);
 }
@@ -41,14 +45,14 @@
 }
 
 .access-denied-content p {
-  color: #64b5f6;
+  color: #ffd700;
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
 
 /* Profile Header */
 .profile-header-section {
-  background: linear-gradient(135deg, #0066cc 0%, #1A1A1E 100%);
+  background: linear-gradient(135deg, #800020 0%, #1a1a1e 100%);
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -57,13 +61,17 @@
 }
 
 .profile-header-section::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
   width: 200px;
   height: 200px;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 215, 0, 0.1) 0%,
+    transparent 70%
+  );
   border-radius: 50%;
 }
 
@@ -90,15 +98,15 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin: 0 0 0.5rem 0;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .student-id {
-  color: #64b5f6;
+  color: #ffd700;
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 0.3rem 0;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
 }
 
 .department {
@@ -131,7 +139,7 @@
 
 .info-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 102, 204, 0.2);
+  box-shadow: 0 10px 25px rgba(128, 0, 32, 0.2);
 }
 
 .card-header {
@@ -139,13 +147,17 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem 1.5rem;
-  background: linear-gradient(135deg, rgba(0, 102, 204, 0.2) 0%, rgba(26, 26, 30, 0.8) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(128, 0, 32, 0.2) 0%,
+    rgba(26, 26, 30, 0.8) 100%
+  );
   border-radius: 8px 8px 0 0;
 }
 
 .card-header sl-icon {
   font-size: 1.5rem;
-  color: #0066cc;
+  color: #800020;
 }
 
 .card-header h3 {
@@ -165,7 +177,7 @@
   align-items: center;
   margin-bottom: 1rem;
   padding-bottom: 0.8rem;
-  border-bottom: 1px solid rgba(100, 181, 246, 0.1);
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
 }
 
 .info-row:last-child {
@@ -175,7 +187,7 @@
 }
 
 .info-label {
-  color: #64b5f6;
+  color: #ffd700;
   font-weight: 500;
   font-size: 0.9rem;
 }
@@ -199,14 +211,14 @@
 
 .sport-tag {
   display: inline-block;
-  background: rgba(0, 102, 204, 0.2);
-  color: #64b5f6;
+  background: rgba(128, 0, 32, 0.2);
+  color: #ffd700;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.8rem;
   font-weight: 500;
   margin: 0.2rem 0.3rem 0.2rem 0;
-  border: 1px solid rgba(0, 102, 204, 0.3);
+  border: 1px solid rgba(128, 0, 32, 0.3);
 }
 
 .register-more-btn {
@@ -223,12 +235,12 @@
 }
 
 .hobby-tag {
-  background: rgba(100, 181, 246, 0.2);
-  color: #64b5f6;
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
   font-size: 0.8rem;
-  border: 1px solid rgba(100, 181, 246, 0.3);
+  border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 /* Achievements Section */
@@ -243,7 +255,11 @@
 }
 
 .achievement-card {
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(26, 26, 30, 0.8) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 215, 0, 0.1) 0%,
+    rgba(26, 26, 30, 0.8) 100%
+  );
   border: 1px solid rgba(255, 215, 0, 0.2);
   border-radius: 8px;
   padding: 1.5rem;
@@ -253,7 +269,7 @@
 }
 
 .achievement-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +293,7 @@
 }
 
 .achievement-card.academic .achievement-icon {
-  color: #0066cc;
+  color: #800020;
 }
 
 .achievement-card.participation .achievement-icon {
@@ -296,7 +312,7 @@
 }
 
 .achievement-date {
-  color: #64b5f6;
+  color: #ffd700;
   font-size: 0.9rem;
   opacity: 0.8;
 }
@@ -323,7 +339,7 @@
 
 /* Loading Text */
 .loading-text {
-  color: #64b5f6;
+  color: #ffd700;
   font-style: italic;
   text-align: center;
   padding: 1rem;
@@ -336,29 +352,29 @@
     text-align: center;
     gap: 1.5rem;
   }
-  
+
   .profile-basic-info h1 {
     font-size: 2rem;
   }
-  
+
   .info-cards-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .achievements-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .quick-actions-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .info-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
   }
-  
+
   .info-value {
     text-align: left;
   }
@@ -368,15 +384,15 @@
   .profile-header-section {
     padding: 1.5rem;
   }
-  
+
   .avatar-icon {
     font-size: 4rem;
   }
-  
+
   .profile-basic-info h1 {
     font-size: 1.8rem;
   }
-  
+
   .card-content {
     padding: 1rem;
   }
