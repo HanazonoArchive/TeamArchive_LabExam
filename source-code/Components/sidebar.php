@@ -1,6 +1,6 @@
 <?php
-define('BASE_URL', '/CS15LabExam/source-code');
-define('SPECIFIC_URL', '/CS15LabExam')
+define('BASE_URL', '/TeamArchive_LabExam/source-code');
+define('SPECIFIC_URL', '/TeamArchive_LabExam')
 ?>
 <link rel="stylesheet" href="<?= BASE_URL ?>/StyleSheet/sidebar.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css" />

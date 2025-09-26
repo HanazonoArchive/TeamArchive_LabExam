@@ -101,7 +101,7 @@ class createRegisterForm {
 
     async sendFormData(formData) {
         try {
-            const response = await fetch("/CS15LabExam/source-code/Controller/registerController.php", {
+            const response = await fetch("/TeamArchive_LabExam/source-code/Controller/registerController.php", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams(formData).toString(),
@@ -113,7 +113,7 @@ class createRegisterForm {
                 this.clearInputField();
 
                 setTimeout(() => {  
-                    window.location.href = "/CS15LabExam/source-code/Webpage/mainpage.php";
+                    window.location.href = "/TeamArchive_LabExam/source-code/Webpage/mainpage.php";
                 }, 2000);
             } else {
                 this.showMessage("Registration failed. Try again.", "warning");

@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
     if (logoutButton) {
         logoutButton.addEventListener("click", async () => {
             try {
-                const response = await fetch("/CS15LabExam/source-code/Controller/logout.php", {
+                const response = await fetch("/TeamArchive_LabExam/source-code/Controller/logout.php", {
                     method: "GET"
                 });
                 const data = await response.json();
                 if (data.status === "success") {
                     // Redirect to main page after logout
-                    window.location.href = "/CS15LabExam/source-code/Webpage/mainpage.php";
+                    window.location.href = "/TeamArchive_LabExam/source-code/Webpage/mainpage.php";
                 } else {
                     console.warn("Logout failed:", data);
                 }

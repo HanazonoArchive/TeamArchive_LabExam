@@ -1,4 +1,4 @@
 <?php 
-header("Location: /CS15LabExam/source-code/Webpage/mainpage.php");
+header("Location: /TeamArchive_LabExam/source-code/Webpage/mainpage.php");
 exit();
 ?> 

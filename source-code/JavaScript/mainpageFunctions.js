@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        const response = await fetch("/CS15LabExam/source-code/Controller/mainpageController.php");
+        const response = await fetch("/TeamArchive_LabExam/source-code/Controller/mainpageController.php");
         const data = await response.json();
 
         // Uncomment this block if you want to redirect when not logged in

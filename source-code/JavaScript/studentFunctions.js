@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const BASE_URL = "/CS15LabExam/source-code";
+    const BASE_URL = "/TeamArchive_LabExam/source-code";
     
     // Show loading state initially
     showLoadingState();
@@ -126,7 +126,7 @@ function populateAchievements(achievements) {
 }
 
 function setupEventListeners() {
-    const BASE_URL = "/CS15LabExam/source-code";
+    const BASE_URL = "/TeamArchive_LabExam/source-code";
     
     // Register for more sports button
     const registerMoreBtn = document.querySelector(".register-more-btn");

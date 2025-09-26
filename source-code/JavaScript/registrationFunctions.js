@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const downloadButton = document.getElementById("download-schedule-btn");
     
     // Base URL for navigation
-    const BASE_URL = "/CS15LabExam/source-code";
+    const BASE_URL = "/TeamArchive_LabExam/source-code";
     
     if (registerButton) {
         registerButton.addEventListener("click", function() {

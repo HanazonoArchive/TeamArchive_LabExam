@@ -1,6 +1,6 @@
 <?php
-define('PROJECT_ROOT', $_SERVER['DOCUMENT_ROOT'] . '/CS15LabExam/source-code');
-define('BASE_URL_STYLE', '/CS15LabExam/source-code');
+define('PROJECT_ROOT', $_SERVER['DOCUMENT_ROOT'] . '/TeamArchive_LabExam/source-code');
+define('BASE_URL_STYLE', '/TeamArchive_LabExam/source-code');
 ?>
 
 <!DOCTYPE html>
