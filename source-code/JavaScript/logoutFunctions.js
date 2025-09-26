@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
                 const data = await response.json();
                 if (data.status === "success") {
-                    // Redirect to login page after logout
-                    window.location.href = "/CS15LabExam/source-code/Webpage/login.html";
+                    // Redirect to main page after logout
+                    window.location.href = "/CS15LabExam/source-code/Webpage/mainpage.php";
                 } else {
                     console.warn("Logout failed:", data);
                 }
