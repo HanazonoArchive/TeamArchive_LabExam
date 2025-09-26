@@ -30,6 +30,10 @@ define('SPECIFIC_URL', '/CS15LabExam')
             <sl-icon slot="prefix" name="house-fill"></sl-icon>
             <a href="<?= BASE_URL ?>/Webpage/mainpage.php">Home</a>
           </sl-menu-item>
+          <sl-menu-item id="student_profile_menu_item" disabled>
+            <sl-icon slot="prefix" name="person-badge"></sl-icon>
+            <a href="<?= BASE_URL ?>/Webpage/student.php">Student Profile</a>
+          </sl-menu-item>
           <sl-menu-item id="login_menu_item">
             <sl-icon slot="prefix" name="person-circle"></sl-icon>
             <a href="<?= BASE_URL ?>/Webpage/login.html">Sign In / Sign Up</a>

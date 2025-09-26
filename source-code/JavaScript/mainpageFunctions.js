@@ -57,6 +57,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         const login_menu_item = document.getElementById("login_menu_item");
         login_menu_item.setAttribute("disabled", true);
+
+        // Enable student profile menu when user is logged in
+        const student_profile_menu_item = document.getElementById("student_profile_menu_item");
+        if (student_profile_menu_item) {
+            student_profile_menu_item.removeAttribute("disabled");
+        }
     } catch (err) {
         console.error("Error fetching user data:", err);
 
@@ -65,5 +71,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById("welcome_account").textContent = "You are Currently! Not Login";
         const login_menu_item = document.getElementById("login_menu_item");
         login_menu_item.removeAttribute("disabled"); // Enable login link for guests
+
+        // Disable student profile menu when user is not logged in
+        const student_profile_menu_item = document.getElementById("student_profile_menu_item");
+        if (student_profile_menu_item) {
+            student_profile_menu_item.setAttribute("disabled", true);
+        }
     }
 });
